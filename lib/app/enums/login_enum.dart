@@ -1,0 +1,8 @@
+enum LoginStatus {
+  USER_FOUND,
+  USER_NOT_FOUND,
+  EMAIL_ALREADY_EXISTS,
+  CREATED_USER,
+  ERROR,
+  LOADING
+}

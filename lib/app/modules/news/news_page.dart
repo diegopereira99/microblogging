@@ -33,7 +33,7 @@ class _NewsPageState extends ModularState<NewsPage, NewsController> {
                   child: Text(
                     "Erro ao buscar novidades. Puxe para baixo para buscar novamente",
                     style: TextStyle(
-                      fontSize: 20,
+                      fontSize: 15,
                       color: Theme.of(context).accentColor
                     ),
                   )
@@ -46,7 +46,7 @@ class _NewsPageState extends ModularState<NewsPage, NewsController> {
                     child: Text(
                       "Não encontramos nenhuma novidade. Puxe para baixo para buscar novamente",
                       style: TextStyle(
-                        fontSize: 20,
+                        fontSize: 15,
                         color: Theme.of(context).accentColor
                       ),
                     )

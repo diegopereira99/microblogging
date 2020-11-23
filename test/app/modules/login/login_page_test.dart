@@ -7,7 +7,6 @@ import 'package:microblogging/app/modules/login/login_page.dart';
 
 void main() {
   
-
   initModule(AppModule());
   initModule(LoginModule());
 
